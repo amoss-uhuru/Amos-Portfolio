@@ -28,6 +28,26 @@ header h1 {
   color: #94a3b8;
 }
 
+/* CTA */
+.cta {
+  text-align: center;
+  background: #1e293b;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 12px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* SECTIONS */
 section {
   padding: 60px;
