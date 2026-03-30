@@ -28,23 +28,48 @@ header h1 {
   color: #94a3b8;
 }
 
-/* CTA */
+/* CTA / AVAILABILITY */
 .cta {
   text-align: center;
   background: #1e293b;
-  padding: 40px;
+  padding: 50px;
   margin: 40px;
   border-radius: 12px;
 }
 
+/* FORMAL TEXT (Times New Roman 12 style) */
+.formal-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px; /* closest web equivalent to size 12 */
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+/* BUTTON */
 .btn {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 12px 25px;
   background: #38bdf8;
   color: black;
   border-radius: 8px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+/* TAGS */
+.availability-tags {
+  margin-top: 15px;
+}
+
+.availability-tags span {
+  display: inline-block;
+  background: #38bdf8;
+  color: black;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 12px;
   font-weight: bold;
 }
 
